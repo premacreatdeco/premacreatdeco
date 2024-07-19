@@ -1,0 +1,138 @@
+body {
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f9f9f9;
+    color: #333;
+}
+
+header, footer {
+    background-color: #fe4784;
+    padding: 10px;
+    text-align: center;
+}
+
+#logo {
+    max-width: 150px;
+
+}
+
+.carousel {
+    position: relative;
+    max-width: 100%;
+    overflow: hidden;
+}
+
+.slides {
+    display: flex;
+    transition: transform 1s ease-in-out;
+}
+
+.slides img {
+    width: 100%;
+    min-height: 300px;
+}
+
+.presentation, .title, .videos, .contact {
+    padding: 20px;
+    text-align: center;
+}
+
+.video {
+    margin: 20px 0;
+}
+
+.contact {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.artist-image img {
+    max-width: 200px;
+    border-radius: 50%;
+}
+
+.form {
+    margin-left: 20px;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+form label {
+    margin-bottom: 5px;
+}
+
+form input, form button {
+    margin-bottom: 10px;
+    padding: 10px;
+    font-size: 1em;
+}
+
+form button {
+    background-color: #fe4784;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+footer a {
+    margin: 0 10px;
+}
+
+footer img {
+    width: 30px;
+    height: 30px;
+}
+
+/* Blur effect */
+#blur-background {
+    filter: blur(10px);
+    transition: filter 0.3s;
+}
+
+#blur-background.active {
+    filter: blur(0);
+}
+
+/* Login form */
+#login-form-container {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    padding: 20px;
+    background-color: white;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    z-index: 1000;
+}
+
+#login-form {
+    display: flex;
+    flex-direction: column;
+}
+
+#login-form h2 {
+    margin-bottom: 20px;
+}
+
+#login-form label {
+    margin-bottom: 5px;
+}
+
+#login-form input {
+    margin-bottom: 10px;
+    padding: 10px;
+    font-size: 1em;
+}
+
+#login-form button {
+    background-color: #fe4784;
+    color: white;
+    border: none;
+    padding: 10px;
+    cursor: pointer;
+}
