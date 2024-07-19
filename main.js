@@ -11,7 +11,7 @@ document.addEventListener('DOMContentLoaded', function() {
     // Lista de correos electrónicos autorizados
     const authorizedEmails = [
         'giulianaepizarro@gmail.com', 
-        'example2@gmail.com', 
+        'prema.creat.deco@gmail.com', 
         'nuevoUsuario@example.com'  // Agrega los correos electrónicos que quieras autorizar
     ];
 
